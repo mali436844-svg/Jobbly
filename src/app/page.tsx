@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Hammer, CheckCircle2, ArrowRight, Shield, Award, Users, Receipt, CalendarRange } from "lucide-react"
+import { AdSenseBanner } from "@/components/adsense-banner"
 
 export default function HomePage() {
   return (
@@ -144,6 +145,11 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* Google AdSense Placement */}
+        <section className="px-4 sm:px-6 lg:px-12 max-w-5xl mx-auto py-2">
+          <AdSenseBanner />
         </section>
       </main>
 
