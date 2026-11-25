@@ -1,0 +1,90 @@
+{
+  "profiles": [
+    {
+      "id": "admin-user-id",
+      "full_name": "Super Admin (iamdev$00)",
+      "username": "iamdev$00",
+      "email": "iamdev$00@jobbly.com",
+      "password": "open445",
+      "role": "admin",
+      "status": "active",
+      "business_name": "Jobbly Platform",
+      "subscription_plan": "pro",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-10-05T00:00:00.000Z"
+    },
+    {
+      "id": "demo-user-id",
+      "full_name": "Demo Contractor",
+      "email": "admin@jobbly.com",
+      "password": "password123",
+      "role": "user",
+      "status": "active",
+      "business_name": "Ali",
+      "business_address": "123 Main St",
+      "business_city": "USA",
+      "business_state": "TX",
+      "business_zip": "000000",
+      "business_phone": "7456789022",
+      "business_email": "billing@o.com",
+      "default_tax_rate": 8.25,
+      "default_payment_terms": "Net 30",
+      "subscription_plan": "free",
+      "created_at": "2026-07-07T08:41:26.730Z",
+      "updated_at": "2026-07-07T08:59:41.804Z",
+      "default_invoice_notes": "ok kro"
+    },
+    {
+      "id": "user-mwgyzch",
+      "created_at": "2026-10-24T07:52:19.249Z",
+      "updated_at": "2026-10-24T07:52:19.249Z",
+      "full_name": "Ali",
+      "business_name": "Engineer",
+      "email": "ali@gmail.com",
+      "password": "Ali000",
+      "role": "user",
+      "status": "active",
+      "subscription_plan": "free",
+      "subscription_status": "trialing",
+      "default_tax_rate": 0,
+      "default_payment_terms": "Net 30"
+    },
+    {
+      "id": "user-2acym6y",
+      "created_at": "2026-11-23T15:44:03.560Z",
+      "updated_at": "2026-11-23T15:44:03.560Z",
+      "full_name": "Ali Raza",
+      "business_name": "DAAS",
+      "email": "m.ali436844@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "status": "active",
+      "subscription_plan": "free",
+      "subscription_status": "trialing",
+      "default_tax_rate": 0,
+      "default_payment_terms": "Net 30"
+    }
+  ],
+  "clients": [
+    {
+      "id": "mock-uuid-vzexjcr18a",
+      "created_at": "2026-07-07T09:00:38.097Z",
+      "updated_at": "2026-07-07T09:00:38.097Z",
+      "user_id": "demo-user-id",
+      "full_name": "Mr Ali",
+      "email": "Ali@gmail.com",
+      "phone": "1234567890",
+      "company_name": "A&A",
+      "address": "45678",
+      "city": "USA",
+      "state": null,
+      "zip": null
+    }
+  ],
+  "jobs": [],
+  "quotes": [],
+  "quote_items": [],
+  "invoices": [],
+  "invoice_items": [],
+  "payments": []
+}
